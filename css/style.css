@@ -227,6 +227,14 @@ hr{
 
 /* -------------------------------------------  PRODUCTOS */
 
+.zoom:hover {
+  transform: scale(1.5);
+  transition: 2s;
+  position:absolute; 
+  z-index:1; 
+}
+
+
 .products{
 
   height: 250px;
