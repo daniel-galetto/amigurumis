@@ -84,6 +84,8 @@ html, body{
 
 }
 
+
+
 .card {
   background-color:var(--black3-color);
   margin: 0px;
@@ -123,13 +125,20 @@ html, body{
  
 }
 
+.navbar {
+  background-image: linear-gradient(to top, var(--lila-color), #ff9a44);  
+  color: antiquewhite;
+
+}
+
 /*--------------BOTON------------------*/
 .botones {
   text-align: center;
 }
 
 .boton{
-  width: 250px;
+  width: 150px;
+  
   box-shadow: 0 4px 15px 0 rgba(255,255,255,0.3);
   background-image: linear-gradient(to right, #fc6078, #ff9a44, #ff9a44, #fc6076);
 }
@@ -159,6 +168,13 @@ html, body{
 
 h1 {
   margin: 10px;
+  text-align: center;
+  color: var(--green2-color);
+  font-family: var(--font3-font-family);
+}
+
+h4 {
+  margin: 0;
   text-align: center;
   color: var(--green2-color);
   font-family: var(--font3-font-family);
@@ -232,6 +248,7 @@ hr{
   transition: 2s;
   position:absolute; 
   z-index:1; 
+  
 }
 
 
@@ -252,4 +269,50 @@ footer{
   color: var(--white-color);
 }
 
+/* menu hamburguesa */ 
 
+#toggle {
+  width: 50px;
+  height: 30px;
+  margin: 10px auto;
+ 
+}
+
+#toggle div {
+  width: 100%;
+  height: 5px;
+  background:  antiquewhite;
+  margin: 4px auto;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  
+}
+
+#toggle.on .one {
+  transform: rotate(45deg) translate(5px, 5px);
+
+}
+
+#toggle.on .two {
+  opacity: 0;
+}
+
+#toggle.on .three {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+
+#menu {
+  padding: 10px;
+
+  margin: auto;
+  display: none;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+
+  
+}
