@@ -6,6 +6,7 @@
 #  /_/·/_/·/_/\____/_.___/_/_/\___/·
 #  ································· */
 
+/* 
 @media (max-width: 450px) {
 
   .container{
@@ -15,12 +16,17 @@
     margin-top: auto;
 
   }
-
   
-}
- 
+} */
+
 @media only screen and (max-width: 1023px) {
   .zoom:hover {
-  display:none;
+    display:none;
   }
+
+  .carta {
+    display: none;
+  }
+
 }
+

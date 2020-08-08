@@ -131,6 +131,28 @@ html, body{
 
 }
 
+/*------------MENU CELULAR---------------*/
+
+
+.carta1 {
+  text-align: center;
+}
+
+h2 {
+  font-family: var(--font3-font-family);
+  font-size: 30px;
+  color: var(--green2-color);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.7s; 
+}
+
+h2:hover {
+  color:green;
+  text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 40px #fff,0 0 80px #fff;
+}
+
+
 /*--------------BOTON------------------*/
 .botones {
   text-align: center;
@@ -173,6 +195,7 @@ h1 {
   font-family: var(--font3-font-family);
 }
 
+
 h4 {
   margin: 0;
   text-align: center;
@@ -202,6 +225,7 @@ nav a {
 
 p, label{
   font-size: var(--normal);
+  color: antiquewhite;
 }
 
 .container {
