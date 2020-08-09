@@ -33,12 +33,24 @@
         </nav> <!-- FIN DEL NAVBAR -->
      
         <!-- COMIENZO DEL MENU ESCRITORIO-->
+
+
+        <!-- 
+            d-none d-sm-none d-md-block - Este texto solo visible para escritorio
+            d-block d-sm-block d-md-none - Este texto solo visible para smartphone 
+        -->
           
         <div id="menu">
             <div class="container container fadeIn">
                 <div class="row">
                     <div class="col m-5">
-                        <div class="carta-box">
+                        <div class="d-block d-sm-block d-md-none" >
+                            <a id="adultos1" href="#adultos">
+                                <h2>ADULTOS</h2>
+                            </a>    
+                        </div>
+
+                        <div class="carta-box d-none d-sm-none d-md-block">
                             <div class="carta">    
                                 <a id="adultos" href="#adultos">
                                     <div class="cara">
@@ -47,13 +59,18 @@
                                     <div class="cara detras"> 
                                         <h1>ADULTOS</h1>
                                         <img src="img/adultos.jpg" width="100" height="100px">
-                                    </div>    
+                                    </div>   
                                 </a>    
                             </div>
                         </div>
                     </div>
                     <div class="col m-5">
-                        <div class="carta-box">
+                        <div class="d-block d-sm-block d-md-none" >
+                            <a id="nino1" href="#ninos">
+                                <h2>NIÑOS</h2>
+                            </a>    
+                        </div>
+                        <div class="carta-box d-none d-sm-none d-md-block">
                             <div class="carta">
                                 <a id="ninos" href="#ninos">  
                                     <div class="cara">
@@ -68,7 +85,12 @@
                         </div>
                     </div>
                     <div class="col m-5">
-                        <div class="carta-box">
+                        <div class="d-block d-sm-block d-md-none" >
+                            <a id="babyshower1" href="#babyshower">
+                                <h2>BABY SHOWER</h2>
+                            </a>    
+                        </div>
+                        <div class="carta-box d-none d-sm-none d-md-block">
                             <div class="carta">
                                 <a id="babyshower" href="#babyshower">     
                                     <div class="cara">
@@ -85,37 +107,6 @@
                 </div>
             </div>    
         </div>  <!-- FIN MENU -->
-
-        <!-- COMIENZO DEL MENU CELULAR-->
-          
-        <div id="menu">
-            <div class="container container fadeIn">
-                <div class="row">
-                    <div class="col">
-                        <div class="carta1">    
-                            <a id="adultos" href="#adultos">
-                                <h2>ADULTOS</h2>
-                            </a>    
-                        </div>
-
-                    </div>
-                    <div class="col">
-                        <div class="carta1">
-                            <a id="ninos" href="#ninos">  
-                                <h2>NIÑOS</h2>
-                            </a>     
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="carta1">
-                            <a id="babyshower" href="#babyshower">     
-                                <h2>BABY SHOWER</h2>
-                            </a>    
-                        </div>
-                    </div>
-                </div>
-            </div>    
-        </div>   <!-- FIN MENU -->
 
         <!-- COMIENZO MAIN -->
         <h1>Nuestros productos</h1>

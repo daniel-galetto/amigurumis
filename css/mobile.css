@@ -6,27 +6,23 @@
 #  /_/·/_/·/_/\____/_.___/_/_/\___/·
 #  ································· */
 
-/* 
+
 @media (max-width: 450px) {
-
-  .container{
-    display: block;
-    height: auto;
-    padding: 5%;
-    margin-top: auto;
-
-  }
-  
-} */
-
-@media only screen and (max-width: 1023px) {
   .zoom:hover {
     display:none;
   }
 
-  .carta {
+ /*  .carta {
     display: none;
-  }
+  } */
 
+ 
+}
+
+
+
+
+@media only screen and (max-width: 1023px) {
+ 
 }
 
