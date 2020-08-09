@@ -125,11 +125,13 @@ html, body{
  
 }
 
-.navbar {
+.navbar1 {
   background-image: linear-gradient(to top, var(--lila-color), #ff9a44);  
   color: antiquewhite;
-
+  align-items: center;
 }
+
+
 
 /*------------MENU CELULAR---------------*/
 
@@ -298,8 +300,7 @@ footer{
 #toggle {
   width: 50px;
   height: 30px;
-  margin: 10px auto;
- 
+
 }
 
 #toggle div {
@@ -327,10 +328,12 @@ footer{
 
 #menu {
   padding: 10px;
-
   margin: auto;
   display: none;
 }
+
+
+
 
 .barra {
   display: flex;
