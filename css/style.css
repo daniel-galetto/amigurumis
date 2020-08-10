@@ -195,7 +195,11 @@ h1 {
   text-align: center;
   color: var(--green2-color);
   font-family: var(--font3-font-family);
+
+  
 }
+
+
 
 
 h4 {
@@ -273,7 +277,7 @@ hr{
   transform: scale(1.5);
   transition: 2s;
   position:absolute; 
-  z-index:1; 
+  z-index:1;
   
 }
 

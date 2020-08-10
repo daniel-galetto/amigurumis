@@ -9,20 +9,6 @@
 
 @media (max-width: 450px) {
   .zoom:hover {
-    display:none;
-  }
-
- /*  .carta {
     display: none;
-  } */
-
- 
+  }
 }
-
-
-
-
-@media only screen and (max-width: 1023px) {
- 
-}
-
