@@ -348,7 +348,7 @@ footer{
 
 .carta-boxs {
   width: 18rem;
-  position: relative;
+  position: absolute;
   perspective: 1000px;
 }
 
