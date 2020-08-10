@@ -145,12 +145,11 @@ h2 {
   font-size: 30px;
   color: var(--green2-color);
   cursor: pointer;
-  white-space: nowrap;
   transition: all 0.7s; 
 }
 
 h2:hover {
-  color:green;
+  color: #fc6076;
   text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 40px #fff,0 0 80px #fff;
 }
 
