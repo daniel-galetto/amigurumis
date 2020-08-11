@@ -134,7 +134,10 @@ html, body{
   align-items: center;
 }
 
-
+.titulo {
+  color: var(--salmon-color);
+  text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 40px #fff,0 0 80px #fff; 
+}
 
 /*------------MENU CELULAR---------------*/
 
@@ -166,7 +169,11 @@ h2:hover {
   width: 150px;
   
   box-shadow: 0 4px 15px 0 var(--black2-color);
-  background-image: linear-gradient(to right, var(--salmon-color), var(--orange-color),var(--orange-color), var(--salmon-color));
+  background-image: linear-gradient(to right, 
+                    var(--salmon-color),  
+                    var(--orange-color),
+                    var(--orange-color), 
+                    var(--salmon-color));
 }
 
 .boton-hover {
@@ -223,11 +230,11 @@ nav a {
 	outline: none;
 	color: #fff;
 	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 400;
-	text-shadow: 0 0 1px var(--black2-color);
-	font-size: 1.35em;
+  text-transform: uppercase;
+  letter-spacing:1px;
+  font-size: 400;
+  text-shadow: 0 0 1px var(--black2-color);
+  font-size: 1.35em;
 }
 
 
@@ -357,11 +364,13 @@ footer{
 
 .carta-boxs:hover .carta {
   transform: rotateY(180deg);
+  -moz-transform:rotateY(180deg) ;
 }
 
 .carta {
   transform-style: preserve-3d;
   transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
 }
 
 .cara {
@@ -371,6 +380,7 @@ footer{
 
 .cara1.detras {
   transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
   width: 250px;
   height: 250px;
   background-color:var(--black3-color);
@@ -390,6 +400,7 @@ footer{
   .container1 .card1 .icon {
   position: absolute;
   transition: 0.7s;
+  -moz-transition: 0.7s;
   z-index: 1;
   }
   
@@ -397,6 +408,7 @@ footer{
   width: 285px;
   height: 230px;
   transition: 0.5s;
+  -moz-transition: 0.5s;
   }
   
   .container1 .card1 .face.face2 {
@@ -408,11 +420,16 @@ footer{
   background: var(--salmon-color);
   box-shadow: 0 10px 20px white;
   transform: translateY(-200px);
+  -moz-transform: translateY(-200px);
   box-sizing: border-box;
   }
   
   .container1 .card1:hover .face2 {
   transform: translateY(0px);
+  -moz-transform: translateY(0px);
   }
   
-  
+  .menu {
+  margin-left: 33%;
+
+  }
